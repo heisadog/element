@@ -129,3 +129,5 @@ Besides using the `title` attribute, you can customize panel title with named sl
 | name      | unique identification of the panel | string/number | — | — |
 | title     | title of the panel                 | string        | — | — |
 | disabled  | disable the collapse item          | boolean       | — | — |
+### 改动记录
+1.取消整个title的点击收缩 效果 将点击区域 放在右边的箭头上

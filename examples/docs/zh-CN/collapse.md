@@ -129,3 +129,5 @@
 | name      | 唯一标志符      | string/number | —     | —    |
 | title     | 面板标题        | string        | —     | —    |
 | disabled  | 是否禁用        | boolean       | —     | —    |
+### 改动记录
+1.取消整个title的点击收缩 效果 将点击区域 放在右边的箭头上

@@ -43,12 +43,12 @@ const webpackConfig = {
   },
   module: {
     rules: [
-      {
-        enforce: 'pre',
-        test: /\.(vue|jsx?)$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader'
-      },
+      // {
+      //   enforce: 'pre',
+      //   test: /\.(vue|jsx?)$/,
+      //   exclude: /node_modules/,
+      //   loader: 'eslint-loader' //2020/10/20 将eslint 效果干掉 重新启动
+      // },
       {
         test: /\.(jsx?|babel|es6)$/,
         include: process.cwd(),
